@@ -1,15 +1,9 @@
 # Let´s code 🚀
 
-<p align="center">
-  <a href="#-tecnologias">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">**Tecnologias**</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-layout">My projects</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#memo-licença">Licença</a>
-</p>
 
 This is a repository created to place all my projects from "Bora Codar" by Rocketseat.
 
-## 💻 Projeto
+## 💻 Project
  "Bora codar" is a weekly challenge where they place one figma design app every Wednesday by 11 am, and we have one week to develop the project and add any functionality we can. 
 
 After one week they will give a resolution for the challenge with the educator @Maykbrito.
@@ -30,9 +24,6 @@ Project developed with those technologies:
 - Javascript
 - Git e Github
 
-## 📝 License
-
-Project with MIT license.
 
 ##  Contact 
 
