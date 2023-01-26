@@ -1,0 +1,37 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  background-color: #0F0D13;
+}
+
+#app {
+  border: 1px solid red;
+  background-color: #2A2141;
+  display: grid;
+  grid-template-areas: 
+  'A B'
+  'A C';
+  place-content: center;
+}
+
+#player1 {
+  grid-area: A;
+}
+
+#player2 {
+  grid-area: B;
+}
+
+#player3 {
+  grid-area: 3;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+}
