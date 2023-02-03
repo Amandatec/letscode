@@ -13,21 +13,25 @@
 body {
   font-size: 1.6rem;
   background-color: #1A1924;
-  color: white;
+  color: #ffffff;
+  height: 100vh;
+  overflow: hidden;
 }
 
 body * {
   font-family: 'Roboto', sans-serif;
   color: #E1E1E6;
-
 }
 
 #content {
   padding: 2.4rem 3.2rem;
   height: 100vh;
   width: 100vw;
+  max-width: 88rem;
   display: grid;
   grid-template-rows: max-content 1fr max-content;
+
+  margin: auto;
 }
 
 #top {
@@ -35,6 +39,7 @@ body * {
   align-items: center;
   justify-content: space-between;
 }
+
 #user-info {
   display: flex;
   align-items: center;
@@ -79,16 +84,28 @@ body * {
   font-size: 1.2rem;
   line-height: 1.4rem;
 }
+
+#messages {
+  overflow-y: scroll;
+  padding: 2.4rem;
+}
+
+#messages::-webkit-scrollbar {
+  display: none;
+}
+
 .message .body-message {
   margin-top: 1rem;
   background-color: #633BBC;
   padding: 1.4rem;
   border-radius: 0 .8rem .8rem .8rem;
+  width: fit-content;
 }
 
 .message:not(.you) {
   width: 60vw;
 }
+
 .message.you {
   margin-left: auto;
 }
@@ -104,32 +121,37 @@ body * {
 
  #bottom {
   margin-top: 4rem;
+ }
 
+ form{
+  display: flex;
+  align-items: center;
   background: #282843;
   border-radius: 50rem;
   padding: 1.4rem 2.4rem;
  }
 
- .input-wrapper {
-  display: flex;
-  align-items: center;
- }
-
- .input-wrapper input {
+input {
   flex: 1;
+  outline: none;
  }
 
-  .input-wrapper input::placeholder {
-    color: #E1E1E6;
-    font-size: 1.2rem;
-  }
+form:focus-within {
+  outline: .2rem solid #ffffff;
+}
 
- .input-wrapper button i {
+input::placeholder {
   color: #E1E1E6;
-  font-size: 2.4rem;
- }
+  font-size: 1.2rem;
+  line-height: 1.2rem;
+}
 
- input, button {
-  background: transparent;
-  border: 0;
- }
+button i {
+color: #E1E1E6;
+font-size: 2.4rem;
+}
+
+input, button {
+background: transparent;
+border: 0;
+}
