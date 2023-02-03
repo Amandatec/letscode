@@ -16,6 +16,7 @@ After a week they will give a resolution to the challenge with educator @Maykbri
 * [**Media Player**](https://github.com/Amandatec/boracodar/week1-mediaplayer)
 * [**Product Card**](https://github.com/Amandatec/boracodar/week2-productcard)
 * [**Buttons and cursors**](https://github.com/Amandatec/boracodar/week3-buttonsandcursors)
+* [**Chat**](https://github.com/Amandatec/boracodar/week4-chat)
 
 ## 🛠️ Tecnology
 
