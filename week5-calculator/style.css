@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: 'Rubik', sans-serif;
+  background-color: #1A1924;
+  height: 56rem;
+  width: 35rem;
+}
+
+#app {
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  place-content: center;
+
+}
+input {
+  height: 15rem;
+  width: 20vw;
+  background-color: transparent;
+  border: none;
+  font-size: 3rem;
+ 
+}
+.calculator {
+  position: relative;
+  height: auto;
+  width: auto;
+
+  border-radius: 4.8rem;
+  padding: 3.2rem;
+}
+
+.theme-toggler {
+  position: absolute;
+  top: 3rem;
+  right: 3rem;
+  color: #fff;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.theme-toggler.active {
+  color: #bb3131;
+}
+
+.theme-toggler.active::before {
+  background-color: #fff;
+}
+
+.theme-toggler::before {
+  content: "";
+  height: 3rem;
+  width: 3rem;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  background-color: #333;
+  z-index: -1;
+}
+
+#display {
+  margin: 0 1rem;
+  height: 15rem;
+  width: auto;
+}
+.buttons {
+  height: 56rem;
+  width: 35rem;
+}
+
+button {
+  background-color: #ca1ca4b0 ;
+  height: 6.4rem;
+  width: 6.4rem;
+  border-radius: 50rem;
+  border: none;
+  box-shadow:  0 0 2rem #080808b0;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.4rem;
+  color: #EBEBEB;
+
+    transition: all 200ms ease;
+}
+
+button:hover {
+  transform: scale(1.2);
+}
+
+.btn-operator {
+  background-color: #462878;
+}
+
+/*light theme*/
+
+.calculator {
+  background-color: #dbd0d6;
+}
+
+.calculator #display {
+  color: #1A1924;
+}
+
+.calculator button#clear {
+  background-color:#EBEBEB ;
+  color: rgb(255, 0, 128);
+}
+
+.calculator button.btn-operator {
+  background-color: #bb3131;
+  color: #c2a8a8;
+}
+
+.calculator button.btn-number {
+  background-color: #ad5f5f;
+}
+
+/*dark theme */
+
+.calculator.dark {
+  background-color: #2D2A37;;
+}
+
+.calculator.dark #display {
+  color: #3328aa;
+}
+
+.calculator.dark button#clear {
+  background-color:#5c5252 ;
+  color: rgb(39, 30, 34);
+}
+
+.calculator.dark button.btn-operator {
+  background-color: #2e2626;
+  color: #d8d0d0;
+}
+
+.calculator.dark button.btn-number {
+  background-color: #3d3636;
+}
