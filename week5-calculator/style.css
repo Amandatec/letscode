@@ -33,6 +33,7 @@ input {
   font-size: 3rem;
  
 }
+
 .calculator {
   position: relative;
   height: auto;
@@ -76,13 +77,13 @@ input {
   height: 15rem;
   width: auto;
 }
+
 .buttons {
   height: 56rem;
   width: 35rem;
 }
 
 button {
-  background-color: #ca1ca4b0 ;
   height: 6.4rem;
   width: 6.4rem;
   border-radius: 50rem;
@@ -96,11 +97,12 @@ button {
   font-size: 2.4rem;
   color: #EBEBEB;
 
-    transition: all 200ms ease;
+  transition: all 200ms ease;
 }
 
 button:hover {
   transform: scale(1.2);
+
 }
 
 .btn-operator {
@@ -122,15 +124,29 @@ button:hover {
   color: rgb(255, 0, 128);
 }
 
+.calculator button#clear:hover {
+  background-color:#b8a5a5 ;
+
+}
+
 .calculator button.btn-operator {
   background-color: #bb3131;
   color: #c2a8a8;
+}
+
+.calculator button.btn-operator:hover {
+  background-color: #d45151;
+
 }
 
 .calculator button.btn-number {
   background-color: #ad5f5f;
 }
 
+.calculator button.btn-number:hover {
+  background-color: #cc8484;
+
+}
 /*dark theme */
 
 .calculator.dark {
@@ -146,11 +162,24 @@ button:hover {
   color: rgb(39, 30, 34);
 }
 
+.calculator.dark button#clear:hover {
+  background-color:#5c5252 ;
+}
 .calculator.dark button.btn-operator {
   background-color: #2e2626;
   color: #d8d0d0;
 }
 
+.calculator.dark button.btn-operator:hover {
+  background-color: #5c4e4e;
+
+}
+
 .calculator.dark button.btn-number {
   background-color: #3d3636;
+}
+
+.calculator.dark button.btn-number:hover {
+  background-color: #746868;
+
 }
