@@ -14,8 +14,7 @@ body {
   font-size: 1.6rem;
   font-family: 'Rubik', sans-serif;
   background-color: #1A1924;
-  height: 56rem;
-  width: 35rem;
+  
 }
 
 #app {
@@ -23,6 +22,7 @@ body {
   width: 100vw;
   display: grid;
   place-content: center;
+   background: linear-gradient(120deg, #1A1924 0%, #1313ca 100%);
 
 }
 input {
@@ -36,8 +36,8 @@ input {
 
 .calculator {
   position: relative;
-  height: auto;
-  width: auto;
+  height: 56rem;
+  width: 35rem;
 
   border-radius: 4.8rem;
   padding: 3.2rem;
@@ -57,7 +57,7 @@ input {
 }
 
 .theme-toggler.active::before {
-  background-color: #fff;
+  background-color: #9e9292;
 }
 
 .theme-toggler::before {
@@ -73,14 +73,15 @@ input {
 }
 
 #display {
-  margin: 0 1rem;
-  height: 15rem;
+  margin:  1rem;
+  height: 13rem;
   width: auto;
+  background: #393755;
+  border-radius: .8rem;
 }
 
 .buttons {
-  height: 56rem;
-  width: 35rem;
+  position: relative;
 }
 
 button {
@@ -115,10 +116,6 @@ button:hover {
   background-color: #dbd0d6;
 }
 
-.calculator #display {
-  color: #1A1924;
-}
-
 .calculator button#clear {
   background-color:#EBEBEB ;
   color: rgb(255, 0, 128);
@@ -147,10 +144,12 @@ button:hover {
   background-color: #cc8484;
 
 }
+
 /*dark theme */
 
 .calculator.dark {
-  background-color:rgba(0, 0,0, 0.1);
+   background: linear-gradient(180deg, #29282b 0%, rgb(83, 83, 90) 100%);
+  
 }
 
 .calculator.dark #display {
