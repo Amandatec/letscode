@@ -22,6 +22,19 @@ body {
   place-content: center;
 }
 
+/*classe utilitária*/
+.grid {
+  display: grid;
+}
+
+.column {
+  grid-auto-flow: column;
+}
+
+.text-right {
+  text-align: right;
+}
+
 h1,
 strong {
   font-weight: 500;
@@ -60,6 +73,7 @@ section {
 
 .top {
   border-radius: 2.4rem 2.4rem 0 0;
+  gap: 2.4rem;
 }
 
 .bottom {
