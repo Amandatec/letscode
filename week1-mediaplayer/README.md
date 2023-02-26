@@ -1,6 +1,6 @@
 #  🎶 Media Player
 
- This repository has a boarding pass designed by Daniel Duarte.<br>
+ This repository has a media player designed by Daniel Duarte.<br>
  You can check the layout here 🔗[Layout](https://www.figma.com/file/PALFQzNbAhVvYGOnWIJRgD/%23boraCodar---Desafio-1-(Copy)?t=emlDOZQsJZ6u9sdp-0)
 
 ## 🛠️ Technology
