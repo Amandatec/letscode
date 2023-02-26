@@ -68,7 +68,6 @@ section {
 }
 
 #boarding-pass {
-  max-width: 32.7rem;
   margin: auto;
 }
 
@@ -81,6 +80,8 @@ section {
   gap: 2.4rem;
   
   --mask: radial-gradient(1.2rem at 1.2rem bottom, transparent 95%, black) -1.2rem;
+  -webkit-mask-repeat: repeat-x;
+  mask-repeat: repeat-x;
 }
 
 .departure, .arrival {
@@ -118,6 +119,9 @@ section {
   border-radius: 0 0 2.4rem 2.4rem;
 
   --mask: radial-gradient(1.2rem at 1.2rem top, transparent 95%, black) -1.2rem;
+
+  -webkit-mask-repeat: repeat-x;
+  mask-repeat: repeat-x;
 }
 
 .bottom .container {
