@@ -16,7 +16,7 @@ Project developed with these technologies:
 
 ## 🔎 Preview
 
-<img width="400px" src=".github/preview.png"/>
+<img width="400px" src=".github/preview.gif"/>
 
 ##   💻 Contact me
 
