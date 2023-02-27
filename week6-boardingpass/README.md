@@ -15,7 +15,7 @@ Project developed with these technologies:
 [Boarding Pass](https://)
 
 
-## Preview
+## 🔎 Preview
 
 <img width="400px" src=".github/preview.png"/>
 

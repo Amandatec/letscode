@@ -14,6 +14,10 @@ Project developed with these technologies:
 
 [Buttons and cursors](https://)
 
+## 🔎 Preview
+
+<img width="400px" src=".github/preview.png"/>
+
 ##   💻 Contact me
 
  <a href="https://www.linkedin.com/in/amanda-oliveira-20/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" style="margin-right: 2vw" target="_blank"></a>
