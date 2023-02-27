@@ -9,6 +9,7 @@ Project developed with these technologies:
 
 - HTML e CSS
 - Git e Github
+-Javascript
 
 ## 🚀 Deploy
 
