@@ -1,7 +1,111 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  font-size: 62.5%;
+  font-family: "Roboto", sans-serif;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+body {
+  font-size: 1.6rem;
+  background-color: #f8f8ff;
+}
+
+input,
+select,
+button {
+  font-family: "Roboto", sans-serif;
+  all: unset;
+}
+
+header {
+  min-height: 53.2rem;
+  text-align: center;
+
+  position: relative;
+  overflow: hidden;
+  display: grid;
+  place-content: center;
+}
+
+header::before {
+  content: "";
+  background-image: url(./assets/bg-header-top.svg);
+  width: 40.7rem;
+  height: 34.5rem;
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  left: 0;
+}
+
+header::after {
+  content: "";
+  background-image: url(./assets/bg-header-bottom.svg);
+  width: 41.4rem;
+  height: 33rem;
+  position: absolute;
+  z-index: 0;
+  bottom: -1.2rem;
+  right: 0;
+}
+
+header .content {
+  width: fit-content;
+}
+
+header p {
+  color: #e45858;
+  font-weight: 500;
+  line-height: 160%;
+
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+header h1 {
+  font-size: 4.8rem;
+  line-height: 125%;
+  color: #121214;
+  max-width: 64.7rem;
+}
+header h1 span {
+  color: #6246ea;
+}
+
+form {
+  margin-top: 4rem;
+  display: flex;
+  padding: 4rem;
+  gap: 2.4rem;
+
+  background: #ffffff;
+  border: 1px solid #eaeaea;
+  border-radius: 1rem;
+}
+
+input {
+  text-align: left;
+}
+
+.search-field.selected {
+  display: flex;
+  align-items: center;
+}
