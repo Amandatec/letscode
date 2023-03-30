@@ -19,6 +19,7 @@ After a week they will give a resolution to the challenge with educator @Maykbri
 * [**Chat**](https://github.com/Amandatec/boracodar/week4-chat)
 * [**Calculator**](https://github.com/Amandatec/boracodar/week5-calculator)
 * [**Boarding Pass**](https://github.com/Amandatec/boracodar/week6-boardingpass)
+* [**Search website**](https://github.com/Amandatec/boracodar/week7-searchwebsite)
 
 ## 🛠️ Tecnology
 
